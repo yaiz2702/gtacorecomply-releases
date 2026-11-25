@@ -1,5 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-<rect width="64" height="64" rx="14" fill="#002A5A"/>
-<circle cx="32" cy="32" r="21" fill="none" stroke="#00B098" stroke-width="4"/>
-<text x="32" y="45" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">G</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#168BFF"/><stop offset=".48" stop-color="#0754B8"/><stop offset="1" stop-color="#071D49"/></linearGradient>
+ <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#19D6B2"/><stop offset="1" stop-color="#008E83"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F7B51B"/><stop offset="1" stop-color="#FFE078"/></linearGradient>
+</defs>
+<!-- sweeping G / roadway -->
+<path d="M394 93 C340 30 232 14 145 60 C56 107 22 205 49 296 C68 359 118 405 184 428 L184 354 C130 328 103 279 111 222 C121 151 181 101 252 101 C295 101 331 117 359 146 Z" fill="url(#blue)"/>
+<path d="M364 151 C335 122 299 108 257 108 C186 108 129 157 119 224 C112 272 133 316 174 343 L222 305 C193 288 179 260 184 231 C191 191 224 163 265 163 C291 163 313 173 331 191 Z" fill="#071D49"/>
+<!-- road ribbon crossing through G -->
+<path d="M63 311 C144 293 203 250 266 198 C314 157 365 119 449 69 C421 124 385 166 341 205 C270 269 203 330 118 365 Z" fill="url(#blue)"/>
+<path d="M65 310 C148 291 211 242 274 190 C332 143 382 104 449 69 C408 125 371 162 327 198 C258 255 194 307 112 344 Z" fill="#0A2A60"/>
+<!-- gold fast-moving upper edge -->
+<path d="M258 199 C319 151 378 105 449 69 C416 120 377 157 335 193 C311 211 288 228 265 245 L247 222 Z" fill="url(#gold)"/>
+<!-- white lane dashes -->
+<path d="M106 295 L125 286 L139 267 L119 275 Z M151 267 L172 254 L187 236 L166 247 Z M199 231 L219 215 L235 199 L215 212 Z" fill="#FFFFFF"/>
+<!-- lower G terminal -->
+<path d="M184 354 L184 428 L260 470 L260 393 L221 371 L221 318 Z" fill="#08265A"/>
+<path d="M260 393 L260 470 L291 452 L291 374 L260 393 Z" fill="url(#blue)"/>
+<!-- growth bars -->
+<path d="M307 285 L351 257 L351 405 L307 431 Z" fill="url(#teal)"/>
+<path d="M364 246 L409 217 L409 372 L364 399 Z" fill="url(#teal)"/>
+<path d="M421 208 L464 180 L464 338 L421 365 Z" fill="url(#teal)"/>
+<!-- subtle bar highlights -->
+<path d="M316 296 L316 416 M373 257 L373 384 M430 219 L430 350" stroke="#A5FFF0" stroke-width="5" opacity=".35"/>
 </svg>
